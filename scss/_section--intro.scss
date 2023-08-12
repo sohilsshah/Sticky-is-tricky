@@ -1,0 +1,32 @@
+.section__intro {
+    background-color: #1d1d1d;
+    border-radius: 8rem;
+    overflow: hidden;
+    position: relative;
+    isolation: isolate;
+    z-index: 1;
+}
+
+.row--door-delivery {
+    .visual--door-delivery {
+        object-position: top center;
+    }
+}
+
+.row--get-cover {
+    margin-block-start: clamp(12rem, 5vw, 24rem);
+    flex-direction: row-reverse;
+}
+
+.row--image-with-text {
+    @media (width >= 1024px) {
+        .col--visual {
+            flex: 0 1 41%;
+            max-width: 41%;
+        }
+        .col--content {
+            flex: 0 1 53%;
+            max-width: 53%;
+        }
+    }
+}
