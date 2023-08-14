@@ -179,6 +179,10 @@ ul {
   margin-block-start: 10rem;
 }
 
+.section--hero {
+  background-color: #535d5a;
+}
+
 .hero__container {
   height: 200vh;
   margin-block-end: -110vh;
