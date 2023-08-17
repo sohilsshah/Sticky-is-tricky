@@ -341,3 +341,6 @@ ul {
     position: relative;
   }
 }
+.line {
+  overflow: hidden;
+}
